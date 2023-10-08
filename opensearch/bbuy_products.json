@@ -93,31 +93,13 @@
               }
           },
           "salesRankShortTerm": {
-              "type": "text",
-              "fields": {
-                  "keyword": {
-                      "type": "keyword",
-                      "ignore_above": 256
-                  }
-              }
+              "type": "long"
           },
           "salesRankMediumTerm": {
-              "type": "text",
-              "fields": {
-                  "keyword": {
-                      "type": "keyword",
-                      "ignore_above": 256
-                  }
-              }
+              "type": "long"
           },
           "salesRankLongTerm": {
-              "type": "text",
-              "fields": {
-                  "keyword": {
-                      "type": "keyword",
-                      "ignore_above": 256
-                  }
-              }
+              "type": "long"
           },
           "bestSellingRank": {
               "type": "text",
